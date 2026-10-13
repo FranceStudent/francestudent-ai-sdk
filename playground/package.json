@@ -1,0 +1,13 @@
+{
+	"name": "francestudent-ai-sdk-playground",
+	"version": "1.0.0",
+	"description": "A playground for testing francestudent-ai-sdk features and functionalities.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node --env-file-if-exists=.env index.js"
+	},
+	"dependencies": {
+		"francestudent-ai-sdk": "file:../"
+	}
+}

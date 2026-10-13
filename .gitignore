@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist
+*.tsbuildinfo
+*.tgz
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Documentation
+docs
+
+# Editors
+.idea
+.vscode
+.zed
+
+# Debugging
+src/debug.ts
